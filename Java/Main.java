@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        BufferedWriter writer = new BufferedWriter(new FileWriter("Java/toys.txt"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter("toys.txt"));
 
         for (int i = 0; i < 10; i++) {
             Toy toy = Get();
